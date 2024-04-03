@@ -1,0 +1,33 @@
+{
+    "env": {
+        "depsIncludePath" : [
+            "${workspaceFolder}/build/_deps/cpr-src/include/",
+            "${workspaceFolder}/build/_deps/cpr-build/cpr_generated_includes/"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}",
+                "${depsIncludePath}"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-x64",
+            "mergeConfigurations": false,
+            "compilerPath": "/usr/bin/clang++",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
