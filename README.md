@@ -1,7 +1,7 @@
 # Login simulator
 
 Login simulator is a console app that does a request to simulate login to
-“http://testphp.vulnweb.com/login.php” and displays the returned HTML page.
+http://testphp.vulnweb.com/login.php and displays the returned HTML page.
 
 ## Dependencies
 
